@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./asserts/inside.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    user-select: none;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: #333;
+    position: relative;
+    max-width: 400px;
+    width: 90%;
+    min-height: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+
+h1 {
+    color: #1f91b7d6;
+    margin-bottom: 50px;
+    
+}
+
+.input-container {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    position: relative;
+    right: 9px;
+    cursor: pointer;
+}
+
+button#addTask {
+    padding: 10px 20px;
+    background: linear-gradient(to right, #007BFF, #00C9A7);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+button#addTask:hover {
+    background: linear-gradient(to right, #0056b3, #00a389);
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: linear-gradient(to right, #ff9999, #ffcc99);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+    font-size: 18px;
+    color: #333;
+}
+
+li:hover {
+    background: linear-gradient(to right, #ff8080, #ffaa80);
+}
+
+.task-actions {
+    display: flex;
+}
+
+.edit-button, .delete-button {
+    background: linear-gradient(to right, #ff6347, #ffaa80);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+
+.edit-button:hover, .delete-button:hover {
+    background: linear-gradient(to right, #d9534f, #ff8c7a);
+}
+
+.edit-input {
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.gmail{
+   
+    position: absolute;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 1374px;
+    display: inline; 
+    margin-top: 100px;
+    color: #0015ff;
+    cursor: grab;
+      
+}
